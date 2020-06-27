@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SeekBarPreference
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:defaultValue="@integer/seek_bar_default"
+        app:showSeekBarValue="true"
+        android:key="alertDistance"
+        android:max="@integer/seek_bar_max"
+        android:min="@integer/seek_bar_min"
+        android:summary="@string/distanceText"
+        android:title="Alert Distance"
+        app:iconSpaceReserved="false"/>
+    <SwitchPreferenceCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:defaultValue="false"
+        app:iconSpaceReserved="false"
+        android:key="colourblindMode"
+        android:title="toggle colourblind mode"
+        />
+
+
+</androidx.preference.PreferenceScreen>

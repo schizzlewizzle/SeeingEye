@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VisualAwareness</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Welcome to the app¬</string>
+    <string name="distanceText">Set the distance in which you want to be alerted to obstacles, in meters.</string>
+</resources>
